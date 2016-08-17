@@ -1,0 +1,1329 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: StoreVilla\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Mon May 09 2016 13:53:46 GMT+0545 (Nepal Standard Time)\n"
+"POT-Revision-Date: Mon May 09 2016 13:53:49 GMT+0545 (Nepal Standard Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: ../404.php:25
+msgid "Back To Home"
+msgstr ""
+
+#: ../comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:40 ../comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:43 ../comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:44 ../comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: ../functions.php:52
+msgid "Top Menu"
+msgstr ""
+
+#: ../functions.php:53
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:115
+msgid "Left Sidebar Widget Area"
+msgstr ""
+
+#: ../functions.php:117 ../functions.php:127 ../functions.php:146
+msgid "Add widgets here."
+msgstr ""
+
+#: ../functions.php:125
+msgid "Right Sidebar Widget Area"
+msgstr ""
+
+#: ../functions.php:136
+msgid "Top Right Header Widget Area"
+msgstr ""
+
+#: ../functions.php:138
+msgid "Add languages currency widgets here."
+msgstr ""
+
+#: ../functions.php:144
+msgid "SV : Main Block Widget Area"
+msgstr ""
+
+#: ../functions.php:158
+#, php-format
+msgid "Footer Widget Area %d"
+msgstr ""
+
+#: ../functions.php:160
+#, php-format
+msgid " Add Widgetized Footer Region %d."
+msgstr ""
+
+#: ../functions.php:170
+msgid "Footer Quick Information Area"
+msgstr ""
+
+#: ../functions.php:172
+msgid "Add quick contact information widgets here."
+msgstr ""
+
+#: ../search.php:19
+#, php-format
+msgid "Search Results for : %s"
+msgstr ""
+
+#. Name of the template
+msgid "Front Page"
+msgstr ""
+
+#: ../inc/class-repeater.php:58 ../inc/class-repeater.php:142
+msgid "storevilla"
+msgstr ""
+
+#: ../inc/class-repeater.php:62 ../inc/class-repeater.php:145 ../inc/class-
+#: repeater.php:216
+msgid "Image type"
+msgstr ""
+
+#: ../inc/class-repeater.php:64 ../inc/class-repeater.php:76 ../inc/class-
+#: repeater.php:98 ../inc/class-repeater.php:147 ../inc/class-repeater.php:159 ..
+#: /inc/class-repeater.php:176 ../inc/class-repeater.php:218 ../inc/class-
+#: repeater.php:230 ../inc/class-repeater.php:247
+msgid "Icon"
+msgstr ""
+
+#: ../inc/class-repeater.php:65 ../inc/class-repeater.php:70 ../inc/class-
+#: repeater.php:88 ../inc/class-repeater.php:148 ../inc/class-repeater.php:153 ..
+#: /inc/class-repeater.php:170 ../inc/class-repeater.php:219 ../inc/class-
+#: repeater.php:224 ../inc/class-repeater.php:241
+msgid "Image"
+msgstr ""
+
+#: ../inc/class-repeater.php:66 ../inc/class-repeater.php:149 ../inc/class-
+#: repeater.php:220
+msgid "None"
+msgstr ""
+
+#: ../inc/class-repeater.php:72 ../inc/class-repeater.php:91 ../inc/class-
+#: repeater.php:155 ../inc/class-repeater.php:173 ../inc/class-repeater.php:226 ..
+#: /inc/class-repeater.php:244 ../inc/storevilla-widget.php:1399
+msgid "Upload Image"
+msgstr ""
+
+#: ../inc/class-repeater.php:111 ../inc/class-repeater.php:112 ../inc/class-
+#: repeater.php:187 ../inc/class-repeater.php:188 ../inc/class-repeater.php:256 ..
+#: /inc/class-repeater.php:257 ../inc/storevilla-widget.php:1562
+msgid "Title"
+msgstr ""
+
+#: ../inc/class-repeater.php:117 ../inc/class-repeater.php:118 ../inc/class-
+#: repeater.php:193 ../inc/class-repeater.php:194 ../inc/class-repeater.php:259 ..
+#: /inc/class-repeater.php:260
+msgid "Text"
+msgstr ""
+
+#: ../inc/class-repeater.php:122 ../inc/class-repeater.php:123 ../inc/class-
+#: repeater.php:197 ../inc/class-repeater.php:198 ../inc/class-repeater.php:262 ..
+#: /inc/class-repeater.php:263
+msgid "Link"
+msgstr ""
+
+#: ../inc/class-repeater.php:128 ../inc/class-repeater.php:129 ../inc/class-
+#: repeater.php:200 ../inc/class-repeater.php:201 ../inc/class-repeater.php:265 ..
+#: /inc/class-repeater.php:266
+msgid "Button Text"
+msgstr ""
+
+#: ../inc/class-repeater.php:134 ../inc/class-repeater.php:204 ../inc/class-
+#: repeater.php:269
+msgid "Delete field"
+msgstr ""
+
+#: ../inc/class-repeater.php:213
+msgid "Store Villa"
+msgstr ""
+
+#: ../inc/class-repeater.php:278
+msgid "Add new field"
+msgstr ""
+
+#: ../inc/customizer.php:19
+msgid "Header Options"
+msgstr ""
+
+#: ../inc/customizer.php:31 ../inc/customizer.php:54
+msgid "Enable / Disable Top Header"
+msgstr ""
+
+#: ../inc/customizer.php:35 ../inc/customizer.php:218 ../inc/customizer.php:260 ..
+#: /inc/customizer.php:506 ../inc/customizer.php:569 ../inc/customizer.php:800
+msgid "Enable"
+msgstr ""
+
+#: ../inc/customizer.php:36 ../inc/customizer.php:219 ../inc/customizer.php:261 ..
+#: /inc/customizer.php:507 ../inc/customizer.php:570 ../inc/customizer.php:801
+msgid "Disable"
+msgstr ""
+
+#: ../inc/customizer.php:42
+msgid "Web Page Layout Options"
+msgstr ""
+
+#: ../inc/customizer.php:58
+msgid "Box Layout"
+msgstr ""
+
+#: ../inc/customizer.php:59
+msgid "Full Width Layout"
+msgstr ""
+
+#: ../inc/customizer.php:71
+msgid "Top Header Options"
+msgstr ""
+
+#: ../inc/customizer.php:74 ../inc/customizer.php:812
+msgid "Top Navigation"
+msgstr ""
+
+#: ../inc/customizer.php:75 ../inc/customizer.php:813
+msgid "Quick Info"
+msgstr ""
+
+#: ../inc/customizer.php:88 ../inc/customizer.php:118 ../inc/customizer.php:148 ..
+#: /inc/customizer.php:179 ../inc/customizer.php:583 ../inc/customizer.php:624 ..
+#: /inc/customizer.php:665
+#, php-format
+msgid "Use font awesome icon: Eg: %s. %sSee more here%s"
+msgstr ""
+
+#: ../inc/customizer.php:89
+msgid "Email Icon"
+msgstr ""
+
+#: ../inc/customizer.php:103
+msgid "Email Address"
+msgstr ""
+
+#: ../inc/customizer.php:119
+msgid "Phone Icon"
+msgstr ""
+
+#: ../inc/customizer.php:133
+msgid "Phone Number"
+msgstr ""
+
+#: ../inc/customizer.php:149
+msgid "Address Icon"
+msgstr ""
+
+#: ../inc/customizer.php:163
+msgid "Address"
+msgstr ""
+
+#: ../inc/customizer.php:180
+msgid "Shop Open Time Icon"
+msgstr ""
+
+#: ../inc/customizer.php:194
+msgid "Shop Opening Time"
+msgstr ""
+
+#: ../inc/customizer.php:202
+msgid "Main Banner Section Area"
+msgstr ""
+
+#: ../inc/customizer.php:214
+msgid "Enable / Disable Main Banner Area"
+msgstr ""
+
+#: ../inc/customizer.php:231
+msgid "Main Slider Section"
+msgstr ""
+
+#: ../inc/customizer.php:233
+msgid "Upload Slider Image With Slider Title, Description, Link & Button Text"
+msgstr ""
+
+#: ../inc/customizer.php:244
+msgid "Header Promo Section Area"
+msgstr ""
+
+#: ../inc/customizer.php:256
+msgid "Enable / Disable Main Header Promo Area"
+msgstr ""
+
+#: ../inc/customizer.php:273 ../inc/storevilla-widget.php:57
+msgid "Upload Promo One Image"
+msgstr ""
+
+#: ../inc/customizer.php:285
+msgid "Promo One Title"
+msgstr ""
+
+#: ../inc/customizer.php:298
+msgid "Promo One Short Description"
+msgstr ""
+
+#: ../inc/customizer.php:312
+msgid "Promo One Link"
+msgstr ""
+
+#: ../inc/customizer.php:324 ../inc/storevilla-widget.php:101
+msgid "Upload Promo Two Image"
+msgstr ""
+
+#: ../inc/customizer.php:337
+msgid "Promo Two Title"
+msgstr ""
+
+#: ../inc/customizer.php:350
+msgid "Promo Two Short Description"
+msgstr ""
+
+#: ../inc/customizer.php:364
+msgid "Promo Two Link"
+msgstr ""
+
+#: ../inc/customizer.php:374
+msgid "Mange products and singel product page settings"
+msgstr ""
+
+#: ../inc/customizer.php:376
+msgid "WooCommerce Products Area"
+msgstr ""
+
+#: ../inc/customizer.php:383
+msgid "Products Pages Settings"
+msgstr ""
+
+#: ../inc/customizer.php:395
+msgid "Select Products pages Layout"
+msgstr ""
+
+#: ../inc/customizer.php:412
+msgid "Select Products Pages Row"
+msgstr ""
+
+#: ../inc/customizer.php:429
+msgid "Enter Products Display Per Page"
+msgstr ""
+
+#: ../inc/customizer.php:439
+msgid "Single Products Page Settings"
+msgstr ""
+
+#: ../inc/customizer.php:451
+msgid "Select Single Products Page Layout"
+msgstr ""
+
+#: ../inc/customizer.php:468
+msgid "Enter Up Sell Title"
+msgstr ""
+
+#: ../inc/customizer.php:482
+msgid "Enter Related Products Title"
+msgstr ""
+
+#: ../inc/customizer.php:490
+msgid "Brands Logo Section Area"
+msgstr ""
+
+#: ../inc/customizer.php:502
+msgid "Options Enable/Disable Brands Loga Area"
+msgstr ""
+
+#: ../inc/customizer.php:519
+msgid "Brands Top Title"
+msgstr ""
+
+#: ../inc/customizer.php:532
+msgid "Brands Main Title"
+msgstr ""
+
+#: ../inc/customizer.php:544
+msgid "Our Brands Logo Area"
+msgstr ""
+
+#: ../inc/customizer.php:546
+msgid "Upload Your Brands Logo Here"
+msgstr ""
+
+#: ../inc/customizer.php:553
+msgid "Services Section Area"
+msgstr ""
+
+#: ../inc/customizer.php:565
+msgid "Options Enable/Disable Service Area"
+msgstr ""
+
+#: ../inc/customizer.php:584
+msgid "Service Icon One"
+msgstr ""
+
+#: ../inc/customizer.php:597
+msgid "Service One Title"
+msgstr ""
+
+#: ../inc/customizer.php:610 ../inc/customizer.php:651 ../inc/customizer.php:692
+msgid "Service Area Very Short Description"
+msgstr ""
+
+#: ../inc/customizer.php:625
+msgid "Service Icon Two"
+msgstr ""
+
+#: ../inc/customizer.php:638
+msgid "Service Two Title"
+msgstr ""
+
+#: ../inc/customizer.php:666
+msgid "Service Icon Three"
+msgstr ""
+
+#: ../inc/customizer.php:679
+msgid "Service Three Title"
+msgstr ""
+
+#: ../inc/customizer.php:700
+msgid "Copyright Message Section"
+msgstr ""
+
+#: ../inc/customizer.php:712
+msgid "Copyright"
+msgstr ""
+
+#: ../inc/customizer.php:719
+msgid "Payment Logo Section"
+msgstr ""
+
+#: ../inc/customizer.php:730 ../inc/customizer.php:741 ../inc/customizer.php:752 .
+#: ./inc/customizer.php:763 ../inc/customizer.php:774 ../inc/customizer.php:785
+msgid "Upload Payment Logo Image"
+msgstr ""
+
+#: ../inc/extras.php:131 ../inc/storevilla-widget.php:923
+msgid "New"
+msgstr ""
+
+#: ../inc/extras.php:213 ../inc/extras.php:221
+msgid "All Categories"
+msgstr ""
+
+#: ../inc/extras.php:238
+msgid "search entire store here"
+msgstr ""
+
+#: ../inc/extras.php:440
+msgid "Display Layout Options"
+msgstr ""
+
+#: ../inc/extras.php:453
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../inc/extras.php:458
+msgid "Right Sidebar(Default)"
+msgstr ""
+
+#: ../inc/extras.php:463
+msgid "Full width"
+msgstr ""
+
+#: ../inc/extras.php:468
+msgid "Both Sidebar"
+msgstr ""
+
+#: ../inc/extras.php:575
+msgid "Sale!"
+msgstr ""
+
+#: ../inc/extras.php:623
+msgid "View Details"
+msgstr ""
+
+#: ../inc/extras.php:659
+msgid "Add To Wishlist"
+msgstr ""
+
+#: ../inc/hooks.php:105 ../inc/storevilla-plugin-activation.php:161
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../inc/hooks.php:106 ../inc/storevilla-plugin-activation.php:162
+msgid "Install Plugins"
+msgstr ""
+
+#: ../inc/hooks.php:107 ../inc/storevilla-plugin-activation.php:163
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../inc/hooks.php:108
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../inc/hooks.php:109 ../inc/storevilla-plugin-activation.php:165
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/hooks.php:112 ../inc/storevilla-plugin-activation.php:166
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/hooks.php:115
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/hooks.php:118 ../inc/storevilla-plugin-activation.php:171
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/hooks.php:121
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/hooks.php:124
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/hooks.php:127 ../inc/storevilla-plugin-activation.php:168
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/hooks.php:130 ../inc/storevilla-plugin-activation.php:169
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/hooks.php:133
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/hooks.php:136 ../inc/storevilla-plugin-activation.php:173
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/hooks.php:139
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/hooks.php:142 ../inc/storevilla-plugin-activation.php:174
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/hooks.php:145 ../inc/storevilla-plugin-activation.php:175
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../inc/hooks.php:146 ../inc/storevilla-plugin-activation.php:177 ..
+#: /inc/storevilla-plugin-activation.php:1956
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../inc/hooks.php:147 ../inc/storevilla-plugin-activation.php:178 ..
+#: /inc/storevilla-plugin-activation.php:1644
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/hooks.php:148
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../inc/hooks.php:149
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../inc/hooks.php:150 ../inc/storevilla-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/hooks.php:151
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:167
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/storevilla-plugin-activation.php:170
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/storevilla-plugin-activation.php:172
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/storevilla-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:532 ../inc/storevilla-plugin-
+#: activation.php:532 ../inc/storevilla-plugin-activation.php:2173 ..
+#: /inc/storevilla-plugin-activation.php:2173
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1167 ../inc/storevilla-plugin-
+#: activation.php:1348
+msgid "Private Repository"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1170 ../inc/storevilla-plugin-
+#: activation.php:1351
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1175
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1178
+msgid "Required"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1178
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1181
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1183
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1288 ../inc/storevilla-plugin-
+#: activation.php:1288 ../inc/storevilla-plugin-activation.php:1409
+msgid "Install"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1312 ../inc/storevilla-plugin-
+#: activation.php:1312 ../inc/storevilla-plugin-activation.php:1410
+msgid "Activate"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1372
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1388
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1389
+msgid "Source"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1390
+msgid "Type"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1391
+msgid "Status"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1939
+msgid "Install package not available."
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1940
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1941
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1942
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1943
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1944
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:1955
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:2069
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:2070
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:2070 ../inc/storevilla-plugin-
+#: activation.php:2079
+msgid "Show Details"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:2070 ../inc/storevilla-plugin-
+#: activation.php:2079
+msgid "Hide Details"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:2071
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:2072
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:2076
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:2077
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:2078
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:2079
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:2080
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../inc/storevilla-plugin-activation.php:2081
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:19
+msgid "A widget that promote you busincess visual way"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:32
+msgid "Promo Full Background Image"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:38
+msgid "Promo Section One"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:44
+msgid "Enter Promo One Title"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:50
+msgid "Enter Very Short Promo One Description"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:63
+msgid "Promo One Button Link"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:69
+msgid "Promo One Button Text"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:82
+msgid "Promo Section Two"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:88
+msgid "Enter Promo Two Title"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:94
+msgid "Enter Very Short Promo Two Description"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:107
+msgid "Promo Two Button Link"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:113
+msgid "Promo Two Button Text"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:125
+msgid "Promo Section Three"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:131
+msgid "Enter Promo Three Title"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:137
+msgid "Enter Very Short Promo Three Description"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:144
+msgid "Upload Promo Three Image"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:150
+msgid "Promo Three Button Link"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:156
+msgid "Promo Three Button Text"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:300
+msgid "A widget that shows WooCommerce category latest product."
+msgstr ""
+
+#: ../inc/storevilla-widget.php:308 ../inc/storevilla-widget.php:791 ..
+#: /inc/storevilla-widget.php:1059
+msgid "Category"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:309 ../inc/storevilla-widget.php:869 ..
+#: /inc/storevilla-widget.php:1058
+msgid "Latest Product"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:310 ../inc/storevilla-widget.php:871 ..
+#: /inc/storevilla-widget.php:1061
+msgid "Feature Product"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:343 ../inc/storevilla-widget.php:879
+msgid "Top Title"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:349 ../inc/storevilla-widget.php:885
+msgid "Product Main Title"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:355 ../inc/storevilla-widget.php:891 ..
+#: /inc/storevilla-widget.php:1114 ../inc/storevilla-widget.php:1159 ..
+#: /inc/storevilla-widget.php:1205
+msgid "Select Product Type"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:362 ../inc/storevilla-widget.php:526 ..
+#: /inc/storevilla-widget.php:1121 ../inc/storevilla-widget.php:1166 ..
+#: /inc/storevilla-widget.php:1212
+msgid "Select Product Category"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:369 ../inc/storevilla-widget.php:533 ..
+#: /inc/storevilla-widget.php:898 ../inc/storevilla-widget.php:1128 ..
+#: /inc/storevilla-widget.php:1173 ../inc/storevilla-widget.php:1220
+msgid "Enter Number of Products Show"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:473
+msgid ""
+"A widget that shows woocommerce category feature image with selected "
+"category products"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:480
+msgid "Right Align Category Image"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:481
+msgid "Left Align Category Image"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:513
+msgid "Product Category Main Title"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:519
+msgid "Select Display Style (Image Alignment)"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:598
+msgid "View All"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:674
+msgid "A widget that shows WooCommerce category"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:709
+msgid "Category Full Background Image"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:715
+msgid "Category Top Title"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:720
+msgid "Category Main Title"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:726
+msgid "Select Category"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:788
+msgid "Products"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:792
+msgid "Product"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:861
+msgid ""
+"A widget that shows WooCommerce all type product (Latest, Feature, On Sale, "
+"Up Sale)."
+msgstr ""
+
+#: ../inc/storevilla-widget.php:870 ../inc/storevilla-widget.php:1060
+msgid "UpSell Product"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:872 ../inc/storevilla-widget.php:1062
+msgid "On Sale Product"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1050
+msgid ""
+"A widget that shows WooCommerce all type product (Latest, Feature, On Sale, "
+"Up Sale) in column view."
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1096
+msgid "Product Column One"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1102
+msgid "Checked to Display One Column"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1108
+msgid "Column One Main Title"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1140
+msgid "Product Column Two"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1147
+msgid "Checked to Display Two Column"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1153
+msgid "Column Two Main Title"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1186
+msgid "Product Column Three"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1193
+msgid "Checked to Display Three Column"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1199
+msgid "Column Three Main Title"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1389
+msgid "A widget that shows About Us information"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1405
+msgid "Short Description"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1412
+msgid "Facebook Url"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1418
+msgid "Twitter Url"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1424
+msgid "Google Plus Url"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1430
+msgid "Youtube Url"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1436
+msgid "Linkedin Url"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1442
+msgid "Pinterest Url"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1552
+msgid "A widget that shows quick contact information"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1567
+msgid "Contact Address"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1573
+msgid "Contact Number"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1578
+msgid "Contact Email Address"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1656
+msgid "A widget that shows blogs posts"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1680
+msgid "Blogs Top Title"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1686
+msgid "Blogs Main Title"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1692 ../inc/storevilla-widget.php:1885
+msgid "Select Blogs Category"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1699
+msgid "Display Posts Order"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1789
+msgid "READ MORE"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1849
+msgid "A widget that shows client testimonial posts"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1873
+msgid "Testimonial Top Title"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1879
+msgid "Testimonial Main Title"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:1892
+msgid "Upload Background Image"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:2252
+msgid "No file chosen"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:2256 ../inc/storevilla-widget.php:2327
+msgid "Upload"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:2258 ../inc/storevilla-widget.php:2328
+msgid "Remove"
+msgstr ""
+
+#: ../inc/storevilla-widget.php:2261
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: ../inc/storevilla-widget.php:2276
+msgid "View File"
+msgstr ""
+
+#: ../inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: ../inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#: ../inc/template-tags.php:50 ../inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: ../inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: ../inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: ../inc/template-tags.php:65
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: ../inc/template-tags.php:72
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: ../inc/template-tags.php:142
+msgid "Skip to navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:143
+msgid "Skip to content"
+msgstr ""
+
+#: ../inc/template-tags.php:233 ../inc/template-tags.php:234
+msgid "My Account"
+msgstr ""
+
+#: ../inc/template-tags.php:240
+msgid " Logout"
+msgstr ""
+
+#: ../inc/template-tags.php:248
+msgid "Login / Register"
+msgstr ""
+
+#: ../inc/template-tags.php:259
+msgid "Wishlist"
+msgstr ""
+
+#: ../inc/template-tags.php:266
+msgid "View your shopping cart"
+msgstr ""
+
+#: ../inc/template-tags.php:269
+#, php-format
+msgid "%d"
+msgstr ""
+
+#: ../inc/template-tags.php:465
+#, php-format
+msgid "%1$s By %2$s"
+msgstr ""
+
+#: ../template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: ../template-parts/content-none.php:21
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../template-parts/content-page.php:23 ../template-parts/content-single.php:43
+msgid "Pages:"
+msgstr ""
+
+#: ../template-parts/content-search.php:39 ../template-parts/content.php:39
+msgid "countinue reading"
+msgstr ""
+
+#: ../template-parts/content-search.php:44 ../template-parts/content-single.php:
+#: 31 ../template-parts/content.php:44
+msgid "Post By :"
+msgstr ""
+
+#: ../woocommerce/global/quantity-input.php:24
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#. Name of the theme
+msgid "StoreVilla"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://accesspressthemes.com/wordpress-themes/storevilla/"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"StoreVilla is a free eCommerce theme based on WooCommerce Plugin and its "
+"extensions.The theme has all the feature that is needed to make a complete "
+"ecommerce website. The theme has 10+ custom widgets to create an attractive "
+"layout to feature your the product in an elegant way. The theme has "
+"beautiful design and is a perfect choice of fashion, digital, jewelery, "
+"cosemetics and online store. The theme is fully translation ready and is "
+"compatible with all major plugins. And never the less, the theme is very "
+"easy to configure and customize and create a online store in no time."
+msgstr ""
+
+#. Author of the theme
+msgid "AccessPress Themes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://accesspressthemes.com/"
+msgstr ""
