@@ -4,7 +4,7 @@ defined( 'ABSPATH' ) or die( "No script kiddies please!" );
   Plugin name: Social Share WordPress Plugin - AccessPress Social Share
   Plugin URI: https://accesspressthemes.com/wordpress-plugins/accesspress-social-share/
   Description: A plugin to add various social media shares to a site with dynamic configuration options.
-  Version: 4.1.6
+  Version: 4.1.7
   Author: AccessPress Themes
   Author URI: http://accesspressthemes.com
   Text Domain: accesspress-social-share
@@ -30,7 +30,7 @@ if ( !defined( 'APSS_LANG_DIR' ) ) {
 }
 
 if ( !defined( 'APSS_VERSION' ) ) {
-	define( 'APSS_VERSION', '4.1.6' );
+	define( 'APSS_VERSION', '4.1.7' );
 }
 
 if ( !defined( 'APSS_TEXT_DOMAIN' ) ) {
@@ -415,9 +415,9 @@ if ( !class_exists( 'APSS_Class' ) ) {
 				//for setting the counter transient in separate options value
 				$apss_social_counts_transients = get_option( APSS_COUNT_TRANSIENTS );
 				if ( false === $fb_transient_count ) {
-					$json_string    = $this->get_json_values( 'https://api.facebook.com/method/links.getStats?urls=' . $url . '&format=json' );
+					$json_string    = $this->get_json_values( 'https://graph.facebook.com/?id=' . $url );
 					$json           = json_decode( $json_string, true );
-					$facebook_count = isset( $json[0]['total_count'] ) ? intval( $json[0]['total_count'] ) : 0;
+					$facebook_count = isset( $json['share']['share_count'] ) ? intval( $json['share']['share_count'] ) : 0;
 					set_transient( $fb_transient, $facebook_count, $cache_period * HOUR_IN_SECONDS );
 					if ( !in_array( $fb_transient, $apss_social_counts_transients ) ) {
 						$apss_social_counts_transients[] = $fb_transient;
@@ -428,9 +428,9 @@ if ( !class_exists( 'APSS_Class' ) ) {
 				}
 				////////////////////////for transient ends ///////////////////////////
 			}else{
-				$json_string    = $this->get_json_values( 'https://api.facebook.com/method/links.getStats?urls=' . $url . '&format=json' );
+				$json_string    = $this->get_json_values( 'https://graph.facebook.com/?id=' . $url );
 				$json           = json_decode( $json_string, true );
-				$facebook_count = isset( $json[0]['total_count'] ) ? intval( $json[0]['total_count'] ) : 0;
+				$facebook_count = isset( $json['share']['share_count'] ) ? intval( $json['share']['share_count'] ) : 0;
 			}
 			return $facebook_count;
 		}
